@@ -1,0 +1,30 @@
+# Custom 60% Keyboard with Magnetic Numpad
+# 64-key main keyboard + 18-key magnetic numpad
+# Features: RGB LEDs, OLED display, rotary encoder, I2C I/O expanders
+
+file_format: "1"
+id: id1
+name: "Custom 60% + Numpad"
+type: shield
+
+# Set this to a URL that documents the keyboard.
+url: https://github.com/hashim-cpro/zmk-config
+
+# Features supported by this keyboard
+features:
+  - keys
+  - encoder
+  - rgb
+  - display
+  - studio # Remove this line if your keyboard will not support ZMK Studio
+
+# Board requirements
+requires:
+  - seeed_xiao_ble # Seeed XIAO nRF52840
+
+# Additional hardware info
+# Main keyboard: 64 keys via PCF8575 I/O expander
+# Numpad: 18 keys via second PCF8575 I/O expander
+# RGB: 82 SK6812 LEDs (64 main + 18 numpad)
+# Display: 0.91" OLED via I2C
+# Encoder: Rotary encoder with switch

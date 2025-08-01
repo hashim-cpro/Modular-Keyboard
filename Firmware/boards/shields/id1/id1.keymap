@@ -1,0 +1,74 @@
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/rgb.h>
+
+/ {
+    // Encoder configuration
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder>;
+        triggers-per-rotation = <20>;
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        // Main layer (64 keys)
+        default_layer {
+            label = "Base";
+            
+           //may need to work here
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            
+            bindings = <
+                // Row 0 (14 keys) - Top number row
+                &kp ESC   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp BSPC
+                
+                // Row 1 (14 keys) - QWERTY row
+                &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH
+                
+                // Row 2 (14 keys) - ASDF row  
+                &kp CAPS  &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT   &kp ENTER &none
+                
+                // Row 3 (14 keys) - ZXCV row
+                &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP    &none
+                
+                // Row 4 (8 keys) - Bottom row
+                &kp LCTRL &kp LGUI  &kp LALT  &kp SPACE &kp SPACE &kp RALT  &kp LEFT  &kp DOWN  &kp RIGHT
+            >;
+        };
+
+        // Function layer
+        fn_layer {
+            label = "Function";
+            
+            sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
+            
+            bindings = <
+                // Function keys and media controls
+                &kp GRAVE &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12   &kp DEL
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp PG_UP &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &kp HOME  &kp PG_DN &kp END
+            >;
+        };
+
+        // RGB and Bluetooth control layer
+        adjust_layer {
+            label = "Adjust";
+            
+            sensor-bindings = <&inc_dec_kp RGB_BRI RGB_BRD>;
+            
+            bindings = <
+                &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &trans &trans &sys_reset
+                &rgb_ug RGB_TOG &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &trans &trans &trans &trans &trans &trans &trans &trans &trans &bootloader
+                &trans &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            >;
+        };
+    };
+};

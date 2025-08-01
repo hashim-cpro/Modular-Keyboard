@@ -1,0 +1,82 @@
+
+#include <physical_layouts.dtsi>
+
+/ {
+    default_layout: default_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "60% + Numpad";
+        transform = <&main_transform>;
+        kscan = <&kscan0>;
+
+      
+        // This is a placeholder for a standard 60% layout
+        keys  //                     w   h    x    y     rot    rx    ry
+            // Row 0 (top row)
+            = <&key_physical_attrs 100 100    0    0       0     0     0>   // Key 0
+            , <&key_physical_attrs 100 100  100    0       0     0     0>   // Key 1
+            , <&key_physical_attrs 100 100  200    0       0     0     0>   // Key 2
+            , <&key_physical_attrs 100 100  300    0       0     0     0>   // Key 3
+            , <&key_physical_attrs 100 100  400    0       0     0     0>   // Key 4
+            , <&key_physical_attrs 100 100  500    0       0     0     0>   // Key 5
+            , <&key_physical_attrs 100 100  600    0       0     0     0>   // Key 6
+            , <&key_physical_attrs 100 100  700    0       0     0     0>   // Key 7
+            , <&key_physical_attrs 100 100  800    0       0     0     0>   // Key 8
+            , <&key_physical_attrs 100 100  900    0       0     0     0>   // Key 9
+            , <&key_physical_attrs 100 100 1000    0       0     0     0>   // Key 10
+            , <&key_physical_attrs 100 100 1100    0       0     0     0>   // Key 11
+            , <&key_physical_attrs 100 100 1200    0       0     0     0>   // Key 12
+            , <&key_physical_attrs 100 100 1300    0       0     0     0>   // Key 13
+            // Row 1
+            , <&key_physical_attrs 150 100    0  100       0     0     0>   // Key 14 (Tab)
+            , <&key_physical_attrs 100 100  150  100       0     0     0>   // Key 15
+            , <&key_physical_attrs 100 100  250  100       0     0     0>   // Key 16
+            , <&key_physical_attrs 100 100  350  100       0     0     0>   // Key 17
+            , <&key_physical_attrs 100 100  450  100       0     0     0>   // Key 18
+            , <&key_physical_attrs 100 100  550  100       0     0     0>   // Key 19
+            , <&key_physical_attrs 100 100  650  100       0     0     0>   // Key 20
+            , <&key_physical_attrs 100 100  750  100       0     0     0>   // Key 21
+            , <&key_physical_attrs 100 100  850  100       0     0     0>   // Key 22
+            , <&key_physical_attrs 100 100  950  100       0     0     0>   // Key 23
+            , <&key_physical_attrs 100 100 1050  100       0     0     0>   // Key 24
+            , <&key_physical_attrs 100 100 1150  100       0     0     0>   // Key 25
+            , <&key_physical_attrs 100 100 1250  100       0     0     0>   // Key 26
+            , <&key_physical_attrs 150 100 1350  100       0     0     0>   // Key 27 (Backspace)
+            , <&key_physical_attrs 100 100    0  200       0     0     0>   // Key 28
+            , <&key_physical_attrs 100 100  100  200       0     0     0>   // Key 29
+            , <&key_physical_attrs 100 100  200  200       0     0     0>   // Key 30
+            , <&key_physical_attrs 100 100  300  200       0     0     0>   // Key 31
+            , <&key_physical_attrs 100 100  400  200       0     0     0>   // Key 32
+            , <&key_physical_attrs 100 100  500  200       0     0     0>   // Key 33
+            , <&key_physical_attrs 100 100  600  200       0     0     0>   // Key 34
+            , <&key_physical_attrs 100 100  700  200       0     0     0>   // Key 35
+            , <&key_physical_attrs 100 100  800  200       0     0     0>   // Key 36
+            , <&key_physical_attrs 100 100  900  200       0     0     0>   // Key 37
+            , <&key_physical_attrs 100 100 1000  200       0     0     0>   // Key 38
+            , <&key_physical_attrs 100 100 1100  200       0     0     0>   // Key 39
+            , <&key_physical_attrs 100 100 1200  200       0     0     0>   // Key 40
+            , <&key_physical_attrs 100 100 1300  200       0     0     0>   // Key 41
+            , <&key_physical_attrs 100 100    0  300       0     0     0>   // Key 42
+            , <&key_physical_attrs 100 100  100  300       0     0     0>   // Key 43
+            , <&key_physical_attrs 100 100  200  300       0     0     0>   // Key 44
+            , <&key_physical_attrs 100 100  300  300       0     0     0>   // Key 45
+            , <&key_physical_attrs 100 100  400  300       0     0     0>   // Key 46
+            , <&key_physical_attrs 100 100  500  300       0     0     0>   // Key 47
+            , <&key_physical_attrs 100 100  600  300       0     0     0>   // Key 48
+            , <&key_physical_attrs 100 100  700  300       0     0     0>   // Key 49
+            , <&key_physical_attrs 100 100  800  300       0     0     0>   // Key 50
+            , <&key_physical_attrs 100 100  900  300       0     0     0>   // Key 51
+            , <&key_physical_attrs 100 100 1000  300       0     0     0>   // Key 52
+            , <&key_physical_attrs 100 100 1100  300       0     0     0>   // Key 53
+            , <&key_physical_attrs 100 100 1200  300       0     0     0>   // Key 54
+            , <&key_physical_attrs 100 100 1300  300       0     0     0>   // Key 55
+            , <&key_physical_attrs 100 100    0  400       0     0     0>   // Key 56
+            , <&key_physical_attrs 100 100  100  400       0     0     0>   // Key 57
+            , <&key_physical_attrs 100 100  200  400       0     0     0>   // Key 58
+            , <&key_physical_attrs 100 100  300  400       0     0     0>   // Key 59
+            , <&key_physical_attrs 100 100  400  400       0     0     0>   // Key 60
+            , <&key_physical_attrs 100 100  500  400       0     0     0>   // Key 61
+            , <&key_physical_attrs 100 100  600  400       0     0     0>   // Key 62
+            , <&key_physical_attrs 100 100  700  400       0     0     0>   // Key 63
+            ;
+    };
+};

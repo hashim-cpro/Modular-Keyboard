@@ -1,0 +1,6 @@
+if SHIELD_ID1
+
+config ZMK_KEYBOARD_NAME
+    default "modular keyboard"
+
+endif # SHIELD_ID1

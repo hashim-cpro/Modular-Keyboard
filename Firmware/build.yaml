@@ -1,0 +1,7 @@
+# ZMK Build Configuration for Custom 60% Keyboard
+# Builds firmware for Seeed XIAO nRF52840 + id1 shield
+
+---
+include:
+  - board: seeeduino_xiao_ble
+    shield: id1
