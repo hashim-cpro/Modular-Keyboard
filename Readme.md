@@ -28,7 +28,7 @@ Here is the PCB:
 For Firmware I made two of them, one in QMK and one in ZMK. ZMK will work only when it is upgraded to zephyr 3.6 or use a custom driver for the I2C expander. QMK will work out of the box but it is not bluetooth, it is wired only. I will add the firmware here once I am done with it.
 
 # BOM
-
+here's the csv: [Link](https://docs.google.com/spreadsheets/d/1DyREVeE_MUjtT9r5M6x5S8JvudkvJUOvS-f6R7vg9m8/edit?usp=sharing)
 | Name                      | Quantity           | Price (USD) | Shipping Cost (USD) |
 | ------------------------- | ------------------ | ----------- | ------------------- |
 | Switches                  | 90                 | $52.85      | $0.00               |
