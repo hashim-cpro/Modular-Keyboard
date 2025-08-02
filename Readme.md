@@ -13,7 +13,7 @@ I used shapr3d to make the case, it is not done, I am still working on it, once 
 # Wired connections
 
 The charging module and battery are not connected to the PCB electrically, I will use wires for them.
-![wiring](Assets/wirting.jpeg)
+![wiring](Assets/wiring.jpeg)
 
 # PCB design
 
