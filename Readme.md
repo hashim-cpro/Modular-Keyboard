@@ -18,6 +18,7 @@ The charging module and battery are not connected to the PCB electrically, I wil
 # PCB design
 
 I used KiCad to make the PCB. Here are the schematics:
+
 ![schematics](Assets/schematics.png)
 
 Here is the PCB:
@@ -38,8 +39,8 @@ here's the csv: [Link](https://docs.google.com/spreadsheets/d/1DyREVeE_MUjtT9r5M
 | Name | Quantity | Price (USD) | Shipping Cost (USD) |
 | ------------------------- | ------------------ | ----------- | ------------------- |
 | Switches | 90 | $52.85 | $0.00 |
-| Keycaps | 1 | $23.25 | $0.00 |
-| Hotswapable sockets | 110 | $15.39 | - |
+| Keycaps | 1x set | $23.25 | $0.00 |
+| Hotswapable sockets | 110 | $15.39 | $0.00 |
 | Stabilizers | 1x set | $10.77 | $0.00 |
 | Custom PCB | 5 | $20.00 | $25.00 |
 | Magnetic pogo pins | 2x 3p and 2x 4p | $20.28 | $0.00 |
@@ -50,7 +51,10 @@ here's the csv: [Link](https://docs.google.com/spreadsheets/d/1DyREVeE_MUjtT9r5M
 | Charging module | Will supply myself | $0.00 | $0.00 |
 | Boost converter | Will supply myself | $0.00 | $0.00 |
 | Rotatory Encoder | Already owned | $0.00 | $0.00 |
-| **Total** | | **$167.79** | **$39.29** |
-| **Complete Cost** | | **$207.08** | |
+| OLED module | 1 | $5.00 | $0.00 |
+| **Total** | | **$172.79** | **$39.29** |
+| **Complete Cost** | | **$212.08** | |
 
-Note: The complete cost does not include the 3D printed case.
+> The complete cost does not include the 3D printed case.
+
+**Important Note**: You might find some of these components cheaper on AliExpress, but trust me, their shipping costs to Pakistan are absolutely insane. I created this BOM keeping Pakistani shipping costs in mind - sometimes paying a bit more upfront is way better than getting hit with crazy shipping fees later. If you're in a different country, definitely check AliExpress for better deals, but for us Pakistanis, this is probably your best bet cost-wise.
