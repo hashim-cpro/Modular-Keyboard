@@ -60,3 +60,5 @@ here's the csv: [Link](https://docs.google.com/spreadsheets/d/1DyREVeE_MUjtT9r5M
 > The complete cost does not include the 3D printed case.
 
 **Important Note**: You might find some of these components cheaper on AliExpress, but trust me, their shipping costs to Pakistan are absolutely insane. I created this BOM keeping Pakistani shipping costs in mind - sometimes paying a bit more upfront is way better than getting hit with crazy shipping fees later. If you're in a different country, definitely check AliExpress for better deals, but for us Pakistanis, this is probably your best bet cost-wise.
+
+Also Ali Express prices tend to change for different regions, so when verifying the BOM, make sure to set the region to Pakistan to get the correct prices.
