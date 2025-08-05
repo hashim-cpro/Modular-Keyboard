@@ -38,8 +38,8 @@ Both firmware options are available in this repository under the Firmware direct
 here's the csv: [Link](https://docs.google.com/spreadsheets/d/1DyREVeE_MUjtT9r5M6x5S8JvudkvJUOvS-f6R7vg9m8/edit?usp=sharing)
 | Name | Quantity | Price (USD) | Shipping Cost (USD) |
 | ------------------------- | ------------------ | ----------- | ------------------- |
-| Switches | 90 | $52.85 | $0.00 |
-| Keycaps | 1x set | $23.25 | $0.00 |
+| Switches | 90 | $46.50 | $0.00 |
+| Keycaps | 1 | $23.25 | $0.00 |
 | Hotswapable sockets | 110 | $15.39 | $0.00 |
 | Stabilizers | 1x set | $10.77 | $0.00 |
 | Custom PCB | 5 | $20.00 | $25.00 |
@@ -52,8 +52,10 @@ here's the csv: [Link](https://docs.google.com/spreadsheets/d/1DyREVeE_MUjtT9r5M
 | Boost converter | Will supply myself | $0.00 | $0.00 |
 | Rotatory Encoder | Already owned | $0.00 | $0.00 |
 | OLED module | 1 | $5.00 | $0.00 |
-| **Total** | | **$172.79** | **$39.29** |
-| **Complete Cost** | | **$212.08** | |
+| SK6812 mini E leds | 100 | $4.88 | $3.11 |
+| Diodes | 100 | $1.00 | $1.00 |
+| **Total** | | **$172.32** | **$43.40** |
+| **Complete Cost** | | **$215.72** | |
 
 > The complete cost does not include the 3D printed case.
 
