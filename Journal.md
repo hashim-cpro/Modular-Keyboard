@@ -5,7 +5,7 @@ description: "A 60% modular keyboard wireless/wired with per key RGB, OLED, rota
 created_at: July 31st, 2025
 ---
 
-**Total Time Spent: 40 Hours**
+**Total Time Spent: 40-48 Hours**
 
 > but take it with a pinch of salt, I didn't keep track of time properly, I probably spent way more then that researching, designing, debugging, repeating, and redoing everything. So this is just the minimum time I think I spent on this project.
 
@@ -77,12 +77,16 @@ There were some errors with the footprint library I was using for my LEDs, solve
 
 ![Latest PCB](Assets/latest%20PCB.png)
 
-**Time Spent: [6-7] hours**
+**Time Spent: [9] hours**
+
+![Firmware time](Assets/firmware%20time.png)
 
 For firmware I wanted to make both QMK and ZMK but QMK doesn't support my board and I came to know that when I wrote the whole thing, god dang it.
 
 Then I went for ZMK, I knew that ZMK was based on Zephyr so i automatically assumed that it would have support for all my peripherals, turns out it didn't for one main component which is our I2C expander, there were no drivers for it in ZMK but there are in Zephyr, ZMK uses 3.5 and support for them were added in 3.6 Zephyr which means we don't have to redo the whole thing again (god knows how many times I just got frustrated and wanted to give up) KiCad was not cooperating with me, it was crashing all the time, I had to restart it like 10 times in a day. But anyway I hope for the best and I will try to make the firmware work with ZMK, if not then I will hack together a driver for the I2C expander. I tried to in the current version but I am not sure if it will work. But anyways wait a little bit and then we will have ZMK support built in for the I2C expander. Probably that would be before even my parts arrive. So no worries. Anyways firmware is kinda boring, we can debug it once we have the parts and the PCB in hand. And if all that didn't work (which is almost impossible) then we can always use the Arduino framework to make it work. I can't test it because I don't have the parts yet but I am sure it will work out + QMK firmware for RP2040 might work out of the box, I will try that too. (I am skeptical about it though because only a random user on Reddit claims to have it working)
+
 > Edit: I just realized that my PCB is MCU agnostic, well kind of, I can use and MCU from XIAO series so I can choose rp2040 or nRF52840, it is upto you (highway reviewer) should I get rp2040 and just use QMK or get nRF52840 and use ZMK, and hope that until the parts arrive, ZMK would have shifted to Zephyr 3.6 and have support for the I2C expander, if not then I will hack together a driver for it.
+
 # Day 5: Case Design - July 31th, 2024
 
 **Time Spent: [5-7] hours**
@@ -116,3 +120,12 @@ I placed the MCU in the bottom using these pins, IDK what to call them.
 ![Charging Module Close Up](Assets/charging%20module%20close%20up.jpeg)
 
 Now you might be wondering why the battery and charging module are not connected anywhere in the PCB or the MCU, it's because of a weird positioning of the battery pads in the MCU. I am new to soldering so I thought just use those pins to lift up the MCU a little from the board and use wire to connect the battery and charging module to the MCU. So yes it is intentional that the battery and charging module are not connected to the PCB, anywhere in the schematic and PCB.
+
+# day idk
+
+i just spent 3 hours making the BOM mostly searching for the components cheaper with free shiping and stuff
+i also realized a major problem with the curtrentyy battery circuit had to do xsome research and made a wiring diagram
+
+# Wiring diagram
+
+![Wiring Diagram](Assets/Wiring.jpg)

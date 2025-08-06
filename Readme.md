@@ -36,26 +36,26 @@ Both firmware options are available in this repository under the Firmware direct
 # BOM
 
 here's the csv: [Link](https://docs.google.com/spreadsheets/d/1DyREVeE_MUjtT9r5M6x5S8JvudkvJUOvS-f6R7vg9m8/edit?usp=sharing)
-| Name | Quantity | Price (USD) | Shipping Cost (USD) |
-| ------------------------- | ------------------ | ----------- | ------------------- |
-| Switches | 90 | $46.50 | $0.00 |
-| Keycaps | 1 | $23.25 | $0.00 |
-| Hotswapable sockets | 110 | $15.39 | $0.00 |
-| Stabilizers | 1x set | $10.77 | $0.00 |
-| Custom PCB | 5 | $20.00 | $25.00 |
-| Magnetic pogo pins | 2x 3p and 2x 4p | $20.28 | $0.00 |
-| Microcontroller | 1 | $10.27 | $5.00 |
-| I2C expander | 2 | $4.68 | $9.29 |
-| Battery | 1 | $6.30 | $0.00 |
-| Battery protection module | 1 | $4.00 | $0.00 |
-| Charging module | Will supply myself | $0.00 | $0.00 |
-| Boost converter | Will supply myself | $0.00 | $0.00 |
-| Rotatory Encoder | Already owned | $0.00 | $0.00 |
-| OLED module | 1 | $5.00 | $0.00 |
-| SK6812 mini E leds | 100 | $4.88 | $3.11 |
-| Diodes | 100 | $1.00 | $1.00 |
-| **Total** | | **$172.32** | **$43.40** |
-| **Complete Cost** | | **$215.72** | |
+| Name | Quantity | Price (USD) | Shipping Cost (USD) | URL |
+| ------------------------- | ------------------ | ----------- | ------------------- | --- |
+| [Switches](https://www.aliexpress.com/item/1005008458590123.html) | 90 | $35.73 | $0.00 | [Link](https://www.aliexpress.com/item/1005008458590123.html) |
+| [Keycaps](https://www.aliexpress.com/item/1005006068241056.html) | 1 | $23.25 | $0.00 | [Link](https://www.aliexpress.com/item/1005006068241056.html) |
+| [Hotswapable sockets](https://www.aliexpress.com/item/1005009187521124.html) | 110 | $15.39 | $0.00 | [Link](https://www.aliexpress.com/item/1005009187521124.html) |
+| [Stabilizers](https://www.aliexpress.com/item/1005001686299616.html) | 1x set | $10.77 | $0.00 | [Link](https://www.aliexpress.com/item/1005001686299616.html) |
+| Custom PCB | 5 | $20.00 | $25.00 | jlcpcb |
+| [Magnetic pogo pins](https://www.aliexpress.com/item/1005008564171277.html) | 2x 3p and 2x 4p | $20.28 | $0.00 | [Link](https://www.aliexpress.com/item/1005008564171277.html) |
+| [Microcontroller](https://www.aliexpress.com/item/1005007416714633.html) | 1 | $10.27 | $5.00 | [Link](https://www.aliexpress.com/item/1005007416714633.html) |
+| [I2C expander](https://lcsc.com/product-detail/I-O-Expanders_Texas-Instruments-PCF8575DBR_C2863388.html) | 2 | $4.68 | $9.29 | [Link](https://lcsc.com/product-detail/I-O-Expanders_Texas-Instruments-PCF8575DBR_C2863388.html) |
+| [Battery](https://www.aliexpress.com/item/1005001651303033.html) | 1 | $6.30 | $0.00 | [Link](https://www.aliexpress.com/item/1005001651303033.html) |
+| [Battery protection module](https://www.aliexpress.com/item/1005007507131765.html) | 1 | $4.00 | $0.00 | [Link](https://www.aliexpress.com/item/1005007507131765.html) |
+| Charging module | Will supply myself | $0.00 | $0.00 | - |
+| Boost converter | Will supply myself | $0.00 | $0.00 | - |
+| Rotatory Encoder | Already owned | $0.00 | $0.00 | - |
+| [OLED module](https://www.aliexpress.com/item/1005006351390199.html) | 1 | $5.00 | $0.00 | [Link](https://www.aliexpress.com/item/1005006351390199.html) |
+| [SK6812 mini E leds](https://www.aliexpress.com/item/1005008417206409.html) | 100 | $4.88 | $3.11 | [Link](https://www.aliexpress.com/item/1005008417206409.html) |
+| [Diodes](https://digilog.pk/products/in4148-1n-4148-diode) | 100 | $1.00 | $1.00 | [Link](https://digilog.pk/products/in4148-1n-4148-diode) |
+| **Total** | | **$161.55** | **$43.40** | |
+| **Complete Cost** | | **$204.95** | | |
 
 > The complete cost does not include the 3D printed case.
 
